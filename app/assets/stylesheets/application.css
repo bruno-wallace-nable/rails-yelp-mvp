@@ -8,3 +8,28 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fcfcfc;
+  color: #333;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
